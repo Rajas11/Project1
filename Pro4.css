@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: sans-serif;
+}
+.Contact{
+    position: relative ;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('Images/Crotons.images.avif');
+    background-size: cover;
+}
+.Contact .Content{
+    max-width: 800px;
+    text-align: center;
+}
+.Contact .Content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color:crimson;
+}
+.Contact .Content p{
+    font-weight: 300;
+    color:Green;
+}
+.Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.Container .ContactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+}
+.Container .ContactInfo .box{
+    position:relative;
+    padding:20px 0;
+    display:flex;
+}
+.Container .ContactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background-color:gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 23px;
+}
+.Container .ContactInfo .box .text {
+    display:flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:blue;
+    flex-direction: column;
+    font-weight: 300;
+}
+.Container .ContactInfo .box .text h3{
+    font-weight: 500;
+    color:maroon;
+}

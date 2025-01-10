@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    background: url('Images/Interiorplants.images.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+}
+header .logo{
+    font-weight:bolder;
+    font-size: 30px;  
+}
+img{
+    border-radius: 50px;
+}
+header .navbar ul{
+    list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+    
+}
+header .navbar ul li a{
+    font-size: 20px;
+    padding:10px;
+    color:green;
+    display: block;
+    
+}
+header .navbar ul li a:hover{
+    background-color: yellow;
+    color:black;
+    border-radius: 6px;
+}
+#menu-bar{
+    display: none;
+}
+header label{
+    font-size: 20px;
+    color:crimson;
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:991px){
+    header{
+        padding: 20px;
+    }
+    header label{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top:100%;
+        left:0;
+        right: 0;
+        background: yellow;
+        border-top: 1px solid green;
+        display: none;
+    }
+    header .navbar ul li{
+        width:100%;
+    }
+    #menu-bar:checked~.navbar{
+        display: initial;
+    }
+}
+
+    

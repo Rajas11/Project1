@@ -1,0 +1,54 @@
+.Login{
+    border:3px solid black;
+    margin-top: 100px;
+    margin-left:500px;
+    width: 400px;
+    height:500px;
+    background-image:url('Images/Artificplant.images.avif') ;
+    color: white;
+    border-radius: 20px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+form{
+    display:block;
+    box-sizing: border-box;
+    padding:30px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    gap:6px;
+}
+h1{
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+label{
+    color:rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+input{
+    background: rgba(255,255,255,0.3);
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color:white;   
+}
+button{
+    background-color:green;
+    height:30px;
+    border-radius: 20px;
+    border: none;
+    margin:10px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+}
